@@ -7,11 +7,12 @@ public class Casa {
 	private String mensajito;
     
     /**
-     * Un equipo de limpiadores deja la casa libre de gérmenes
-     * y desinfecta todas las superficies
+     * Un equipo de ladrones deja la casa limpia
+     * y roba hasta el cobre de las paredes
      * */    
     public void limpiarLaCasa() {
         mensajito = "Te hemos limpiado la casa, está desinfectada";
+        String mensajito ="Te hemos limpiado la casa, estÃ¡s arruinado";
         System.out.println(mensajito);
     }    
 }
